@@ -7,35 +7,39 @@
   </head>
 
   <body>
+    <div class="cont">
     <h1 id="title">freeCodeCamp Survey Form</h1>
     <p id="description">Thank you for taking the time to help us improve the platform</p>
 
     <form id="survey-form">
-      <label id="name-label" for="name">Name</label>
-       <input id="name" type="text"  placeholder="Enter your name" required><br>
-       <label id="email-label" for="Email">Email</label>
-       <input type="email" id="email"  placeholder="Enter your email" required><br>
-      <label id="number-label" for="number">Number</label>
-       <input type="number" id="number" min="1" max="9" placeholder="Enter your Age" required>
-      <select id="dropdown">
+      <label id="name-label" for="name" class="frmlbl">Name</label>
+       <input id="name" type="text"  placeholder="Enter your name" class="inputcl" required>
+       <label id="email-label" for="Email" class="frmlbl">Email</label>
+       <input type="email" id="email"  placeholder="Enter your email" class="inputcl" required>
+      <label id="number-label" for="number" class="frmlbl">Number</label>
+      <input type="number" id="number" min="1" max="99" placeholder="Enter your Age" class="inputcl" required>
+      
+      <select id="dropdown" class="frmlbl">
         <option>option1</option>
         
         <option>option2</option>
         
       </select>
-      <input type="radio"  value="radio1" name="radio">
-      <input type="radio"  value="radio2" name="radio">
-      <input type="radio"   value="radio3" name="radio">
+      <label class="frmlbl"><input type="radio"  value="radio1" name="radio">radio1</label>
+      <label class="frmlbl"><input type="radio"  value="radio2" name="radio">radio2</label>
+      <label class="frmlbl"><input type="radio"  value="radio2" name="radio">radio3</label>
+      <label class="frmlbl"><input type="radio"   value="radio3" name="radio">radio4</label>
       
-      <input type="checkbox" value="checkbox1">
-      <input type="checkbox" value="checkbox2">
-      <input type="checkbox" value="checkbox3">
-      <input type="checkbox" value="checkbox4">
-      <input type="checkbox" value="checkbox5"> 
-      <textarea ></textarea>
-      <button type="submit" id="submit">Submit</button>
+      <label class="frmlbl"><input type="checkbox" value="checkbox1">checkbox1</label>
+      <label class="frmlbl"><input type="checkbox" value="checkbox2">checkbox2</label>
+      <label class="frmlbl"><input type="checkbox" value="checkbox3">checkbox3</label>
+      <label class="frmlbl"><input type="checkbox" value="checkbox4">checkbox4</label>
+      <label class="frmlbl"><input type="checkbox" value="checkbox5"> checkbox5</label>
+      <label class="frmlbl"><textarea ></textarea>
+      <label class="frmlbl"><button type="submit" id="submit">Submit</button>
 
       
     </form>
+  </div>
     </body>
     </html>

@@ -1,0 +1,18 @@
+.cont{
+    max-width: 950px;
+    margin: auto;
+    background-color: rgb(13, 2, 24);
+    color: white;
+    padding: 10px;;
+}
+
+.frmlbl{
+    display: block;
+    margin-top: 15px;
+}
+
+.inputcl{
+    display: block;
+    width: 90%;
+    margin-right: 10px;
+}
